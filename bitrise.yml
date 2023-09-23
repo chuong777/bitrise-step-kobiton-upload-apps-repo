@@ -51,6 +51,7 @@ workflows:
             echo "KOBITON_APP_ID: $KOBITON_APP_ID"
             echo "KOBITON_UPLOAD_URL: $KOBITON_UPLOAD_URL"
             echo "KOBITON_APP_PATH: $KOBITON_APP_PATH"
+            echo "KOBITON_APP_VERSION_PATH: $KOBITON_APP_VERSION_PATH"
 
 
   # ----------------------------------------------------------------

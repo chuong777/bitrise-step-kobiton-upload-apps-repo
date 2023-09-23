@@ -80,6 +80,7 @@ echo "Done"
 envman add --key KOBITON_APP_ID --value ${APP_ID}
 envman add --key KOBITON_UPLOAD_URL --value ${UPLOAD_URL}
 envman add --key KOBITON_APP_PATH --value ${KAPPPATH}
+envman add --key KOBITON_APP_VERSION_PATH --value "kobiton-store:v${APP_VERSION_ID}"
 
 # Envman can handle piped inputs, which is useful if the text you want to
 # share is complex and you don't want to deal with proper bash escaping:
